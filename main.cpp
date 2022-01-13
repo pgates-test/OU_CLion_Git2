@@ -1,8 +1,8 @@
 #include <iostream>
 
-int Policz (int a, int b)
+float Policz (int a, int b)
 {
-    return a+b;
+    return a/(float)b;
 }
 int main()
 {
